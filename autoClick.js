@@ -20,12 +20,11 @@
 	}
 
 	function callNum() {
-		var thisNum = document.getElementById("ergo-call");
+		var thisNum = document.getElementById("linkID");
 		var method = "click";
 		setTimeout(function() {
 			  fireEvent(thisNum, method);
 			}, 4000);
-			piwikTracker.trackPageView('DelayedAutoCall');
 	}
 </script>
 </head>
